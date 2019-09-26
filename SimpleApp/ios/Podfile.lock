@@ -1,0 +1,284 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.6)
+  - Firebase/Auth (6.5.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 6.2.1)
+  - Firebase/CoreOnly (6.5.0):
+    - FirebaseCore (= 6.1.0)
+  - Firebase/Database (6.5.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 6.0.0)
+  - FirebaseAuth (6.2.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (6.1.0):
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/Logger (~> 6.0)
+  - FirebaseDatabase (6.0.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseUI/Auth (8.0.4):
+    - Firebase/Auth (~> 6.0)
+    - GoogleUtilities/UserDefaults
+  - FirebaseUI/Email (8.0.4):
+    - FirebaseUI/Auth
+  - FirebaseUI/Google (8.0.4):
+    - FirebaseUI/Auth
+    - GoogleSignIn (~> 4.0)
+  - FirebaseUI/OAuth (8.0.4):
+    - FirebaseUI/Auth
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - Folly/Default (= 2018.10.22.00)
+    - glog
+  - Folly/Default (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.1):
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - GoogleToolboxForMac/Defines (2.2.1)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.1)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.1)
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.1)"
+  - GoogleUtilities/AppDelegateSwizzler (6.2.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.2.3)
+  - GoogleUtilities/Logger (6.2.3):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (6.2.3):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.2.3)"
+  - GoogleUtilities/Reachability (6.2.3):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.2.3):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.2.2)
+  - leveldb-library (1.20)
+  - React (0.60.6):
+    - React-Core (= 0.60.6)
+    - React-DevSupport (= 0.60.6)
+    - React-RCTActionSheet (= 0.60.6)
+    - React-RCTAnimation (= 0.60.6)
+    - React-RCTBlob (= 0.60.6)
+    - React-RCTImage (= 0.60.6)
+    - React-RCTLinking (= 0.60.6)
+    - React-RCTNetwork (= 0.60.6)
+    - React-RCTSettings (= 0.60.6)
+    - React-RCTText (= 0.60.6)
+    - React-RCTVibration (= 0.60.6)
+    - React-RCTWebSocket (= 0.60.6)
+  - React-Core (0.60.6):
+    - Folly (= 2018.10.22.00)
+    - React-cxxreact (= 0.60.6)
+    - React-jsiexecutor (= 0.60.6)
+    - yoga (= 0.60.6.React)
+  - React-cxxreact (0.60.6):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React-jsinspector (= 0.60.6)
+  - React-DevSupport (0.60.6):
+    - React-Core (= 0.60.6)
+    - React-RCTWebSocket (= 0.60.6)
+  - React-jsi (0.60.6):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React-jsi/Default (= 0.60.6)
+  - React-jsi/Default (0.60.6):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+  - React-jsiexecutor (0.60.6):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React-cxxreact (= 0.60.6)
+    - React-jsi (= 0.60.6)
+  - React-jsinspector (0.60.6)
+  - React-RCTActionSheet (0.60.6):
+    - React-Core (= 0.60.6)
+  - React-RCTAnimation (0.60.6):
+    - React-Core (= 0.60.6)
+  - React-RCTBlob (0.60.6):
+    - React-Core (= 0.60.6)
+    - React-RCTNetwork (= 0.60.6)
+    - React-RCTWebSocket (= 0.60.6)
+  - React-RCTImage (0.60.6):
+    - React-Core (= 0.60.6)
+    - React-RCTNetwork (= 0.60.6)
+  - React-RCTLinking (0.60.6):
+    - React-Core (= 0.60.6)
+  - React-RCTNetwork (0.60.6):
+    - React-Core (= 0.60.6)
+  - React-RCTSettings (0.60.6):
+    - React-Core (= 0.60.6)
+  - React-RCTText (0.60.6):
+    - React-Core (= 0.60.6)
+  - React-RCTVibration (0.60.6):
+    - React-Core (= 0.60.6)
+  - React-RCTWebSocket (0.60.6):
+    - React-Core (= 0.60.6)
+  - RNCAsyncStorage (1.6.2):
+    - React
+  - RNGoogleSignin (2.0.0):
+    - GoogleSignIn (~> 4.4.0)
+    - React
+  - yoga (0.60.6.React)
+
+DEPENDENCIES:
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Firebase/Auth
+  - Firebase/Database
+  - FirebaseUI/Auth
+  - FirebaseUI/Email
+  - FirebaseUI/Google
+  - FirebaseUI/OAuth
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - React (from `../node_modules/react-native/`)
+  - React-Core (from `../node_modules/react-native/React`)
+  - React-cxxreact (from `../node_modules/react-native/ReactCommon/cxxreact`)
+  - React-DevSupport (from `../node_modules/react-native/React`)
+  - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
+  - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
+  - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
+  - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
+  - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
+  - React-RCTBlob (from `../node_modules/react-native/Libraries/Blob`)
+  - React-RCTImage (from `../node_modules/react-native/Libraries/Image`)
+  - React-RCTLinking (from `../node_modules/react-native/Libraries/LinkingIOS`)
+  - React-RCTNetwork (from `../node_modules/react-native/Libraries/Network`)
+  - React-RCTSettings (from `../node_modules/react-native/Libraries/Settings`)
+  - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
+  - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
+  - React-RCTWebSocket (from `../node_modules/react-native/Libraries/WebSocket`)
+  - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
+  - RNGoogleSignin (from `../node_modules/react-native-google-signin`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+    - Firebase
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseUI
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - leveldb-library
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "../node_modules/react-native/"
+  React-Core:
+    :path: "../node_modules/react-native/React"
+  React-cxxreact:
+    :path: "../node_modules/react-native/ReactCommon/cxxreact"
+  React-DevSupport:
+    :path: "../node_modules/react-native/React"
+  React-jsi:
+    :path: "../node_modules/react-native/ReactCommon/jsi"
+  React-jsiexecutor:
+    :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
+  React-jsinspector:
+    :path: "../node_modules/react-native/ReactCommon/jsinspector"
+  React-RCTActionSheet:
+    :path: "../node_modules/react-native/Libraries/ActionSheetIOS"
+  React-RCTAnimation:
+    :path: "../node_modules/react-native/Libraries/NativeAnimation"
+  React-RCTBlob:
+    :path: "../node_modules/react-native/Libraries/Blob"
+  React-RCTImage:
+    :path: "../node_modules/react-native/Libraries/Image"
+  React-RCTLinking:
+    :path: "../node_modules/react-native/Libraries/LinkingIOS"
+  React-RCTNetwork:
+    :path: "../node_modules/react-native/Libraries/Network"
+  React-RCTSettings:
+    :path: "../node_modules/react-native/Libraries/Settings"
+  React-RCTText:
+    :path: "../node_modules/react-native/Libraries/Text"
+  React-RCTVibration:
+    :path: "../node_modules/react-native/Libraries/Vibration"
+  React-RCTWebSocket:
+    :path: "../node_modules/react-native/Libraries/WebSocket"
+  RNCAsyncStorage:
+    :path: "../node_modules/@react-native-community/async-storage"
+  RNGoogleSignin:
+    :path: "../node_modules/react-native-google-signin"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
+  Firebase: dedc9e48ea3f3649ad5f6b982f8a0c73508a14b5
+  FirebaseAuth: a06ad63e9bf4c86165b54cceb1c14d4f4c38d419
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: aecf02fb2274ec361b9bebeac112f5daa18273bd
+  FirebaseDatabase: f48e067716864be2b855cf716b927ef375d6cfa0
+  FirebaseUI: d92c980c1c7e553df3c5e7b0725baeb13f80f6d2
+  Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
+  glog: 1f3da668190260b06b429bb211bfbee5cd790c28
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: b3553629623a3b1bff17f555e736cd5a6d95ad55
+  GoogleUtilities: d2b0e277a95962e09bb27f5cd42f5f0b6a506c7d
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  React: 68e7f8dfc27729eade18423072a143120f2f32ab
+  React-Core: fc9dace551f6c8c1007dd2d3cb1bc10c90a01d3e
+  React-cxxreact: abe59014fce932d41a08bf1aa5dcad9ca8f0a2c5
+  React-DevSupport: b0da2fd9ad4ffb25561bf2a328ab84f78f871bdd
+  React-jsi: 1a4248256b96fa453536a8dafe11b784e24e789d
+  React-jsiexecutor: 2279e559b921d02dfc6253ebef3dcb3a9dc6c07e
+  React-jsinspector: a58b86545a0185f69768e78ac96ca9fe43fa3694
+  React-RCTActionSheet: 49f6a67a7efa6688f637296383d453b97ef13645
+  React-RCTAnimation: e8047438b2927ebbe630bbf600c7309374075df3
+  React-RCTBlob: 2c4b28daca5b3e6e356706d8e0c7436a0e8ef492
+  React-RCTImage: 273501f0529775962551613259c20ccdf1a87cd2
+  React-RCTLinking: 76c88b3cc98657915a2ba2f20d208e44d0530a43
+  React-RCTNetwork: 77c11e672ccdcc33da5d047705f100b016497b15
+  React-RCTSettings: f727c25ad26a8a9bd7272a8ba93781bd1f53952a
+  React-RCTText: d91537e29e38dc69cf09cbca0875cf5dc7402da6
+  React-RCTVibration: 7655d72dfb919dd6d8e135ca108a5a2bd9fcd7b4
+  React-RCTWebSocket: 7cd2c8d0f8ddd680dc76404defba7ab1f56b83af
+  RNCAsyncStorage: 60a80e72d95bf02a01cace55d3697d9724f0d77f
+  RNGoogleSignin: d030c6c6591db24c3cee649f64c7babf0a1699a0
+  yoga: 5079887aa3e4c62142d6bcee493022643ee4d730
+
+PODFILE CHECKSUM: eea00b5d898f4a1c78fb16b3a413aa0574e52a4b
+
+COCOAPODS: 1.7.5
