@@ -1,79 +1,42 @@
 {
   "project_info": {
-    "project_number": "108096849192",
-    "firebase_url": "https://t-527-react.firebaseio.com",
-    "project_id": "t-527-react",
-    "storage_bucket": "t-527-react.appspot.com"
+    "project_number": "798223495295",
+    "firebase_url": "https://t-528-react.firebaseio.com",
+    "project_id": "t-528-react",
+    "storage_bucket": "t-528-react.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:108096849192:android:63b7ebe4a028f424",
-        "android_client_info": {
-          "package_name": "com.tento"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "108096849192-4l42rtccdv92qj1bb23u7iu4bgpjrtm2.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.tento",
-            "certificate_hash": "404775cf0da1e0f0898176d02162a0e3a6710b37"
-          }
-        },
-        {
-          "client_id": "108096849192-eadkvrnnb0ae6u3kpb7938e2064v7jm4.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBDX7Ae7k-dXjm_vQd36hEeSpOL81b6okY"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "108096849192-eadkvrnnb0ae6u3kpb7938e2064v7jm4.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:108096849192:android:ac92dd3e16f3b3f0",
+        "mobilesdk_app_id": "1:798223495295:android:be6d661e78be9050048f4a",
         "android_client_info": {
           "package_name": "com.simpleapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "108096849192-adc8sei9ivuuo0vjke6u2jpts5rqfu7m.apps.googleusercontent.com",
+          "client_id": "798223495295-25iq28dbs9pd868i0a1r57s7epq1blg0.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.simpleapp",
-            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+            "certificate_hash": "404775cf0da1e0f0898176d02162a0e3a6710b37"
           }
         },
         {
-          "client_id": "108096849192-eadkvrnnb0ae6u3kpb7938e2064v7jm4.apps.googleusercontent.com",
+          "client_id": "798223495295-85324p401amm4eue3l87tl7mobbim998.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBDX7Ae7k-dXjm_vQd36hEeSpOL81b6okY"
+          "current_key": "AIzaSyCnO-i72FEy7-FKvqSQpBFK5GsguvL4X8w"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "108096849192-eadkvrnnb0ae6u3kpb7938e2064v7jm4.apps.googleusercontent.com",
+              "client_id": "798223495295-85324p401amm4eue3l87tl7mobbim998.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

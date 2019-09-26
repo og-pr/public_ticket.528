@@ -2,10 +2,12 @@
 
 buildscript {
     ext {
+        buildToolsVersion = "27.0.3"
         minSdkVersion = 18
         compileSdkVersion = 28
         targetSdkVersion = 28
         supportLibVersion = "28.0.3"
+        googlePlayServicesAuthVersion = "16.0.1" // <--- use this version or newer
     }
     repositories {
         google()
@@ -17,7 +19,8 @@ buildscript {
         classpath("com.android.tools.build:gradle:3.5.0")
 
         // per https://developers.google.com/android/guides/google-services-plugin
-        classpath 'com.google.gms:google-services:4.3.1'  // Google Services plugin
+        //classpath 'com.google.gms:google-services:4.3.1'  // Google Services plugin
+        classpath 'com.google.gms:google-services:4.1.0'  // Google Services plugin
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
