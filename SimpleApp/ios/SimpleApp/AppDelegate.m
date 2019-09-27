@@ -11,6 +11,10 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
+/* per https://github.com/react-native-community/react-native-google-signin/blob/master/docs/ios-guide.md */
+/* #import <RNGoogleSignin/RNGoogleSignin.h> */
+#import <RNGoogleSignin/RNGoogleSignin.h>
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
