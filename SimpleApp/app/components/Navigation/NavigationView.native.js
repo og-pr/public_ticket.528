@@ -231,11 +231,13 @@ class Navigation extends Component {
     console.log('navigation @ render - login status = ' +this.state.loginStatus); 
     if(!this.state.userInfo) { 
         console.log('@ navigation render > no userinfo'); 
+        // og.note: return multiple elements
         //return ( this.pageLogin() ) // works
         //return ( [ this.pageLogin(), this.pageClear(), this.pageBlank() ]) // works
         return ( [ this.pageLogin(), <Redirect to="/login"/> ]) // works = clears output = does not go to login (it is not defined); goes to default view of this file (which is login)
     } else {
         console.log('@ navigation render > yes userinfo'); 
+        // og.note: return multiple elements
         //return ( this.pageLogout() ) // works
         return ( [ this.pageLogout(), this.pageClear() ]) // works
     } // end if else
