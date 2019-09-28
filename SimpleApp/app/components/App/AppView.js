@@ -1,5 +1,8 @@
 // NOTE * Only 1 file (this file) is used for the entire webapp
-// 
+//      * This code serves as model for a port from Web to Mobile (iOS/Android)
+
+// **********************************************************************************************
+//
 // OTHER NOTE
 // * Web invented 1989
 // * Android (by Google) invented 2003 (14 years after Web)
@@ -10,7 +13,7 @@
 // Thus, Web technologies are 20+ years ahead of Mobile technologies.
 // Using ReactJS for Web, is easier since it is 6+ years old as of 2019.
 // React-Native for Mobile is only ~ 4 years old and will always be behind Web.
-
+//
 // **********************************************************************************************
 
 import React, { Component } from 'react'; // og.note: maybe needed due to React.Component
