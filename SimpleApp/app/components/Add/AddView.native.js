@@ -103,9 +103,7 @@ class AddPage extends Component {
     const { foodName, error } = this.state
     /* 
     console.log('addview @ render - from link props = ' +this.props.location); // returns [object Object]  
-    console.dir(this.props.location); // see console for the "to object" from link
     console.dir(this.props.location.state.loginStatus); // via props (in the "to obj" from link) not via state
-    console.dir(this.props.location.dataFromParent.user); 
     console.log('name = ' +this.props.location.dataFromParent.user.givenName); 
     */
     const isInvalid = foodName === '';
