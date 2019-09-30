@@ -29,7 +29,7 @@ class AddPage extends Component {
 
   checkError = (error) => {
     console.log('addview > check error')
-    var uxError; // var so it can be read outside code block
+    var uxError; // using var so it can be read outside code block
     if (error.code === CONSTANTS.FB_USER_NOT_FOUND) {
       uxError = 1
       console.log(uxError)
@@ -42,7 +42,7 @@ class AddPage extends Component {
   checkInput = event => {
     console.log('@ checkInput - name via prop = ' +this.props.location.dataFromParent.user.givenName); 
     Keyboard.dismiss() /// dismiss keyboard 
-    // catch one empty
+    // catch one empty field
     if (this.state.foodName.trim() === '') { 
       this.setState(() => ({ foodError: "  ... Food required ... " }));
       return;

@@ -22,7 +22,6 @@ export const TEXT_OUT = 'SHOW LOGOUT'
 export const TEXT_LOGIN_CAPS = 'LOGIN'
 export const TEXT_LOGOUT_CAPS = 'LOGOUT'
 
-// from SimpleRouting
 const PAGE_1 = '** Add **'
 const PAGE_2 = '** List **'
 const PAGE_3 = '** Logout **'

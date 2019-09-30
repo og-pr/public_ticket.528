@@ -95,7 +95,7 @@ const Styles = StyleSheet.create({
         paddingBottom: 5, 
         justifyContent: 'center',
         alignItems: 'center', 
-        fontWeight: Platform.OS === 'ios' ? '400' : '400', 
+        fontWeight: Platform.OS === 'ios' ? '400' : '400', // end is android
         color: '#000000',
         fontSize: 14,
     },

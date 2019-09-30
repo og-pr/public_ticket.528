@@ -13,7 +13,7 @@ import { Button,
 
 import { Redirect } from 'react-router-native' // using old mechanism
 import { Router, Route, Link } from "../App/router-native"; // new route mechanism
-import { GoogleSignin, GoogleSigninButton, statusCodes } from 'react-native-google-signin'; // google signin using firebase_ui (not just firebase or google-signin)
+import { GoogleSignin, GoogleSigninButton, statusCodes } from 'react-native-google-signin'; // google-signin also using firebase_ui (not just google-signin)
 
 import TEXT_MESSAGE_PAGE from '../TextMessage';  // will load AND run ALL code in file
 
@@ -161,8 +161,8 @@ class Navigation extends Component {
   // og.fixme: left in in case needed
   reRender = () => {
     console.log('re render'); 
-    this.setState({ state: this.state });
-    this.forceUpdate(); // Force a render without state change
+    this.setState({ state: this.state }); // Force render with state change
+    //this.forceUpdate(); // Force a render with *out* state change
   }
       
   // Prompts a modal to let the user sign in. Resolved promise returns an userInfo object.

@@ -4,6 +4,6 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Layout from '../Layout';
 
-// og.note: requires route to be parent ; everything else must be inside it ; see appview, layoutview, + navigationview
+// og.note: requires route to be parent component ; everything else must be inside it ; see appview, layoutview, + navigationview
 export default () =>
 	<Layout />

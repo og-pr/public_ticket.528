@@ -139,7 +139,6 @@ class ListPage extends Component {
         ) /// end return
       */
     }
-
   } // end render
 } // end class
 
