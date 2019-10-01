@@ -44,12 +44,12 @@ For each platform, from the root directory, do
 
 Animated GIFs
 ===========
-![Animated GIF - iOS New User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_ios_new.gif)
-![Animated GIF - iOS Existing User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_ios.gif)
 ![Animated GIF - Web New User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_web_new.gif)
 ![Animated GIF - Web Existing User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_web.gif)
 ![Animated GIF - Android New User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_android_new.gif)
 ![Animated GIF - Android Existing User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_android.gif)
+![Animated GIF - iOS New User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_ios_new.gif)
+![Animated GIF - iOS Existing User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_ios.gif)
 
 Notes - Development
 ===========
@@ -58,7 +58,7 @@ Notes - Development
 * [React Router](https://github.com/ReactTraining/react-router) aka 1 package used as Navigational Components 
 * Form Input Error checking is basic ; repo user can refactor as needed
 * [Password Authentication](https://firebase.google.com/docs/auth/web/password-auth) and [Password Resets](https://firebase.google.com/docs/auth/web/manage-users#set_a_users_password) (via Firebase), left as exercise to repo user
-* Additional Social Logins, e.g. Faceboook or Twitter, for [web](https://www.robinwieruch.de/react-firebase-link-social-logins/) & [mobile](https://medium.com/@chrisbianca/getting-started-with-firebase-authentication-on-react-native-a1ed3d2d6d91), left as exercise to repo user
+* Additional Social Logins, e.g. Facebook or Twitter, for [web](https://www.robinwieruch.de/react-firebase-link-social-logins/) & [mobile](https://medium.com/@chrisbianca/getting-started-with-firebase-authentication-on-react-native-a1ed3d2d6d91), left as exercise to repo user
 
 Notes - Miscellaneous 
 =====
@@ -70,5 +70,5 @@ Inspiration
 ===========
 * [A Firebase in React Tutorial](https://www.robinwieruch.de/complete-firebase-authentication-react-tutorial/) (is for Web)
 * [Integrating Firebase with React Native](https://blog.jscrambler.com/integrating-firebase-with-react-native/) (is for Mobile)
-* [Fun, Food, Friends](https://css-tricks.com/intro-firebase-react/) (only for webapp ; I refactored for Web and ported to Android/iOS)
+* [Fun, Food, Friends](https://css-tricks.com/intro-firebase-react/) (only for webapp ; refactored for Web and ported to Android/iOS)
 
