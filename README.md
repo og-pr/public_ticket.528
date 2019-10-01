@@ -44,7 +44,6 @@ For each platform, from the root directory, do
 
 Animated GIFs
 ===========
-![Animated GIF - Web New User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_web_new.gif)
 ![Animated GIF - Web Existing User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_web.gif)
 ![Animated GIF - Android New User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_android_new.gif)
 ![Animated GIF - Android Existing User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_android.gif)
