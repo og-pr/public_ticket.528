@@ -13,7 +13,7 @@ Installation
 * Get the repo
 * From root directory, do ```yarn```
 * Change root/android/local.properties as needed 
-* From root/ios directory, do ```pod install``` (as needed)
+* From root/ios directory, do ```pod install``` (if needed)
 * Install [react-native-google-signin](https://github.com/react-native-community/react-native-google-signin) per both the [Android guide](https://github.com/react-native-community/react-native-google-signin/blob/master/docs/android-guide.md) & [iOS guide](https://github.com/react-native-community/react-native-google-signin/blob/master/docs/ios-guide.md)
 * Add Firebase per these guides: [Firebase for Android](https://firebase.google.com/docs/android/setup/) , [Firebase for iOS](https://firebase.google.com/docs/ios/setup/), [Firebase JS SDK for Webapps](https://firebase.google.com/docs/web/setup/)
 
@@ -44,12 +44,12 @@ For each platform, from the root directory, do
 
 Animated GIFs
 ===========
-![Animated GIF - iOS](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/ezgif-720_ios.gif)
-![Animated GIF - Web](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/ezgif-720_web.gif)
-![Animated GIF - Android](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/ezgif-720_android.gif)
-![Animated GIF - iOS](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/ezgif-720_ios.gif)
-![Animated GIF - Web](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/ezgif-720_web.gif)
-![Animated GIF - Android](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/ezgif-720_android.gif)
+![Animated GIF - iOS New User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_ios_new.gif)
+![Animated GIF - iOS Existing User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_ios.gif)
+![Animated GIF - Web New User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_web_new.gif)
+![Animated GIF - Web Existing User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_web.gif)
+![Animated GIF - Android New User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_android_new.gif)
+![Animated GIF - Android Existing User](https://github.com/og-pr/public_ticket.528/blob/master/SimpleApp/_docs/ezgif-720_android.gif)
 
 Notes - Development
 ===========
