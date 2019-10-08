@@ -40,7 +40,7 @@ For each platform, from the root directory, do
 * ```react-native run-android -- --clear-cache```
 
 ### iOS
-* ```react-native run-ios``` or open ```ios/RandomImage.xcodeproj``` with Xcode
+* ```react-native run-ios``` or open ```ios/SimpleApp.xcodeproj``` with Xcode
 
 Animated GIFs
 ===========
