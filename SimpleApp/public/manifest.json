@@ -1,6 +1,6 @@
 {
-  "short_name": "SimpleLanding",
-  "name": "SimpleLanding",
+  "short_name": "SimpleApp",
+  "name": "SimpleApp",
   "icons": [
     {
       "src": "favicon.ico",
